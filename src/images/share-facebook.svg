@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="20px" viewBox="0 0 82 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>share_button-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="82" height="20" rx="3"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-4" transform="translate(-1338.000000, -22.000000)">
+            <g id="header">
+                <g id="share_button-small" transform="translate(1338.000000, 22.000000)">
+                    <g id="share">
+                        <g id="background">
+                            <use fill="#4267B2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#4267B2" stroke-width="0.5" x="0.25" y="0.25" width="81.5" height="19.5" rx="3"></rect>
+                        </g>
+                        <text id="94k" font-family="Helvetica" font-size="11" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="58" y="14">94k</tspan>
+                        </text>
+                        <text id="Share" font-family="Helvetica-Bold, Helvetica" font-size="11" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="23" y="14">Share</tspan>
+                        </text>
+                        <image id="facebook-icon.png" x="3" y="2" width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAMFJREFUOBHNUEEOwjAMWxEg0PgDNw4ceA5v2Hl/3FP2AKQhOFHsbq5CgPW6SKlT29mSVtViIsbYIgdkKehpNXhQAXJAXev+A1/gVhN/DyEcWItg/a+5g3ZGbpBHJOPbOzP3aewZT/ksl2oJHmUE3yEf0sXbN4giJ3wSseueyGYiYscDfO7lnYaPSKQ7YLjIJMk+org5vHpx7Qnd8ac0slthK12Y9+BoIi1qV6+LtyvcbGOhzl77gQZNfaGRMj30LiTeuO+5UVll79kAAAAASUVORK5CYII="></image>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
