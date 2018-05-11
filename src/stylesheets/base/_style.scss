@@ -1,6 +1,7 @@
 $light-grey: rgba(26,26,63,.35);
 $dark: rgba(26,26,63,.7);
 $paragraph-small: 500 13px/15px 'Gilroy';
+
 @font-face {
   font-family: Gilroy;
   font-weight: 700;
@@ -42,6 +43,7 @@ h3 {
 
 .left-spacer {
   width:22%;
+  display: none;
 }
 
 // header
@@ -172,16 +174,7 @@ h3 {
   color: $light-grey;
 }
 
-@media only screen and (max-width: 1200px) {
-  .scoreboard-small {
-    & .team p {
-      display: none;
-    }
-    & .score-small h3 {
-      font-size: 15px;
-    }
-  }
-}
+
 
 
 // center column
@@ -206,10 +199,18 @@ h3 {
   justify-content: space-between;
 }
 
+.wrapper-right {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 78%;
+  justify-content: space-between;
+}
+
 
 
 .game {
-  width: 56%;
+  width: 75%;
   max-width: 680px;
   justify-content: center;
   padding: 30px 65px 0;
@@ -444,10 +445,12 @@ h3 {
   }
 }
 
+
+//right column (that woud get you)
 .buy {
   max-width: 400px;
   background-color: rgba(255,220,68,1);
-  width: 22%;
+  width: 25%;
   padding: 32px 20px 0 20px;
   box-sizing: border-box;
   z-index: 1;
@@ -482,4 +485,42 @@ h3 {
   line-height: 24px;
   text-align: center;
   margin:12px 0;
+}
+
+@media only screen and (max-width: 1023px) {
+  .wrapper-right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .buy {
+    width: 100%;
+    max-width: none;
+  }
+  .game {
+    width:100%;
+    box-sizing: border-box;
+
+  }
+  .illustration {
+    display: none;
+  }
+  .scoreboard-small {
+    & .team p {
+      display: none;
+    }
+  }
+  .share--center {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .scoreboard-small {
+    & .score-small {
+      padding-top: 3px;
+      & h3 {
+        font-size: 15px;
+        }
+      }
+  }
 }
