@@ -120,7 +120,7 @@ games.forEach(function(game) {
   dateScores.innerHTML += generatedTemplate;
 });
 
-
+// game list fixed
 var wrap = $(".scores");
 
 window.addEventListener("scroll", function(e) {
